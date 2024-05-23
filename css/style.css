@@ -1,0 +1,171 @@
+/*header start*/
+header{
+	padding:10px;
+	border-bottom:3px solid #EEF0F3;
+}
+.wrapper{
+	width:90%;
+	/*border:2px solid lightblue;*/
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+	width:10%;
+	margin:5px 0px;
+	/*border:1px solid red;*/
+	float:left;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:45%;
+	/*border:1px solid red;*/
+	float:right;
+}
+.menu ul{
+	overflow: hidden;
+	float:right;
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:#0F2656;
+	text-decoration: none;
+	margin:0px 20px;
+	display:inline-block;
+}
+.menu ul li:last-child a{
+	margin:0px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px 0px;
+}
+.wrapper2{
+	width:60%;
+	margin:0 auto;
+	text-align: center;
+}
+.b_content{}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	color:#0F2656;
+	margin:0;
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	color:#008AFF;
+	margin:10px 0;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#0F2656;
+	line-height: 25px;
+	word-spacing: 1px;
+	margin-top:0;
+	margin-bottom: 15px;
+}
+.b_image{
+	width:75%;
+	margin:0 auto;
+}
+.b_image img{
+	width:100%;
+}
+/*banner end*/
+/*successfull start*/
+.successfull{
+	padding: 60px 0;
+}
+.s_content{
+	overflow: hidden;
+}
+.s_left{
+	width:40%;
+	float:left;
+	text-align: right;
+	padding: 0 10px 0 20px;
+}
+.s_left h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #F15767;
+	margin:0 0 10px;
+}
+.s_left p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #0F2656;
+	margin: 0;
+	line-height: 23px;
+    letter-spacing: 1px;
+}
+.s_right{
+	width:50%;
+	float:right;
+	text-align: left;
+	padding: 0 20px 0 10px;
+}
+.s_right h1{
+	font-family: sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: #0F2656;
+	margin:0;
+}
+/*successfull end*/
+/*feature start*/
+.feature{}
+.f_content{
+	overflow: hidden;
+}
+.f_single{
+	font-family: sans-serif;
+	color: #0F2656;;
+	width:27%;
+	padding: 30px 31px 45px;
+	float:left;
+	margin-right: 25px;
+}
+.f_single:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #FDEBED;
+}
+.green{
+	background-color: #EBF9F4;
+}
+.yellow{
+	background-color: #FFF7E8;
+}
+.f_image{}
+.f_image img{
+	width:100%;
+}
+.f_single h2{
+	font-size: 25px;
+	font-weight: 700;
+	margin: 20px 0;
+}
+.f_single p{
+	font-size: 19px;
+	font-weight: 400;
+	margin: 0;
+}
+/*feature end*/
+
+
